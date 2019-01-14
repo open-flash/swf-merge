@@ -184,7 +184,7 @@ export class DynMovie {
         }
         for (const {name, id} of tag.assets) {
           if (namedExports.has(name)) {
-            throw new Incident("DuplicateExportName", {name});
+            console.warn(`DuplicateExportName: ${name} (${id})`);
           }
           namedExports.set(name, id);
         }
