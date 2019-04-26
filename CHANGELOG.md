@@ -1,4 +1,4 @@
-# Next
+# 0.0.4 (2019-01-26)
 
 - **[Fix]** Update to `swf-tree@0.6.0`
 
