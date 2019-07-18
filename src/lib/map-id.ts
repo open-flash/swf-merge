@@ -28,10 +28,10 @@ export function mapId(tag: Tag, fn: (id: Uint16) => Uint16): Tag {
       return {...tag, id: fn(tag.id)};
     case TagType.DefineFont:
       return {...tag, id: fn(tag.id)};
+    case TagType.DefineGlyphFont:
+      return {...tag, id: fn(tag.id)};
     case TagType.DefineMorphShape:
       return mapDefineMorphShape(tag, fn);
-    case TagType.DefinePartialFont:
-      return {...tag, id: fn(tag.id)};
     case TagType.DefineShape:
       return mapDefineShape(tag, fn);
     case TagType.DefineSound:

@@ -6,8 +6,8 @@ import {
   DefineCffFont,
   DefineDynamicText,
   DefineFont,
+  DefineGlyphFont,
   DefineMorphShape,
-  DefinePartialFont,
   DefineShape,
   DefineSound,
   DefineSprite,
@@ -21,8 +21,8 @@ export type DefinitionTag =
   | DefineCffFont
   | DefineDynamicText
   | DefineFont
+  | DefineGlyphFont
   | DefineMorphShape
-  | DefinePartialFont
   | DefineShape
   | DefineSound
   | DefineSprite
@@ -35,8 +35,8 @@ const DEFINITION_TAGS: ReadonlySet<TagType> = new Set([
   TagType.DefineCffFont,
   TagType.DefineDynamicText,
   TagType.DefineFont,
+  TagType.DefineGlyphFont,
   TagType.DefineMorphShape,
-  TagType.DefinePartialFont,
   TagType.DefineShape,
   TagType.DefineSound,
   TagType.DefineSprite,
