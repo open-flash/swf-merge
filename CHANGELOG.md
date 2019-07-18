@@ -1,4 +1,4 @@
-# Next
+# 0.8.0 (2019-07-18)
 
 - **[Breaking change]** Update to `swf-tree@0.8.0`.
 
