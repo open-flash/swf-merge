@@ -1,7 +1,7 @@
 import { Incident } from "incident";
 import { Uint16, UintSize } from "semantic-types";
-import { Movie, NamedId, Tag, TagType } from "swf-tree";
-import { ExportAssets } from "swf-tree/tags";
+import { Movie, NamedId, Tag, TagType } from "swf-types";
+import { ExportAssets } from "swf-types/tags";
 import { isDefinitionTag } from "./definition-tag";
 import { getDependencies } from "./dependencies";
 import { mapId } from "./map-id";

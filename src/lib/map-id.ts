@@ -1,7 +1,7 @@
 import { Uint16 } from "semantic-types";
-import { FillStyle, FillStyleType, MorphFillStyle, ShapeRecordType, SpriteTag, Tag, TagType } from "swf-tree";
-import { MorphShapeStyles } from "swf-tree/morph-shape-styles";
-import { ShapeStyles } from "swf-tree/shape-styles";
+import { FillStyle, FillStyleType, MorphFillStyle, ShapeRecordType, SpriteTag, Tag, TagType } from "swf-types";
+import { MorphShapeStyles } from "swf-types/morph-shape-styles";
+import { ShapeStyles } from "swf-types/shape-styles";
 import {
   DefineButton,
   DefineMorphShape,
@@ -10,7 +10,7 @@ import {
   ExportAssets,
   PlaceObject,
   RemoveObject,
-} from "swf-tree/tags";
+} from "swf-types/tags";
 
 export function mapId(tag: SpriteTag, fn: (id: Uint16) => Uint16): SpriteTag;
 export function mapId(tag: Tag, fn: (id: Uint16) => Uint16): Tag;

@@ -1,4 +1,4 @@
-import { Tag, TagType } from "swf-tree";
+import { Tag, TagType } from "swf-types";
 import {
   DefineBinaryData,
   DefineBitmap,
@@ -12,7 +12,7 @@ import {
   DefineSound,
   DefineSprite,
   DefineText,
-} from "swf-tree/tags";
+} from "swf-types/tags";
 
 export type DefinitionTag =
   DefineBinaryData

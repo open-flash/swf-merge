@@ -2,7 +2,7 @@ import chai from "chai";
 import fs from "fs";
 import { JsonReader } from "kryo/readers/json";
 import sysPath from "path";
-import { $Movie, Movie } from "swf-tree/movie";
+import { $Movie, Movie } from "swf-types/movie";
 import { swfMerge } from "../lib";
 import meta from "./meta.js";
 

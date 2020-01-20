@@ -1,8 +1,8 @@
 import { Uint16 } from "semantic-types";
-import { FillStyle, FillStyleType, MorphFillStyle, ShapeRecordType, Tag, TagType } from "swf-tree";
-import { MorphShapeStyles } from "swf-tree/morph-shape-styles";
-import { ShapeStyles } from "swf-tree/shape-styles";
-import { DefineButton, DefineMorphShape, DefineShape, DefineSprite, PlaceObject, RemoveObject } from "swf-tree/tags";
+import { FillStyle, FillStyleType, MorphFillStyle, ShapeRecordType, Tag, TagType } from "swf-types";
+import { MorphShapeStyles } from "swf-types/morph-shape-styles";
+import { ShapeStyles } from "swf-types/shape-styles";
+import { DefineButton, DefineMorphShape, DefineShape, DefineSprite, PlaceObject, RemoveObject } from "swf-types/tags";
 
 export function getDependencies(tag: Tag): Set<Uint16> {
   return new Set(getTagDependencies(tag));
