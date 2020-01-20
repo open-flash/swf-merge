@@ -1,6 +1,6 @@
 {
   "name": "swf-merge",
-  "version": "0.8.0",
+  "version": "0.10.0",
   "description": "Merge SWF files",
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",
@@ -19,6 +19,9 @@
       "url": "https://spdx.org/licenses/MIT"
     }
   ],
+  "engines": {
+    "node": ">=13.2"
+  },
   "scripts": {
     "build": "gulp lib:build",
     "watch": "gulp lib:watch",
