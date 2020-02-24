@@ -1,3 +1,7 @@
+# Next
+
+- **[Breaking change]** Update to `swf-types@0.11.0`.
+
 # 0.10.0 (2020-01-20)
 
 - **[Breaking change]** Update to `swf-types@0.10.0`.
